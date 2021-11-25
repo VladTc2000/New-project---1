@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Привет мир!")
             .padding()
             .background(LinearGradient(gradient:
                                         Gradient (colors:[.pink, .green]),startPoint: .center, endPoint: .bottomTrailing))
