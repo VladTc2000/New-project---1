@@ -12,7 +12,7 @@ struct ContentView: View {
         Text("hello!")
             .padding()
             .background(LinearGradient(gradient:
-                                        Gradient (colors:[.pink, .green]),startPoint: .center, endPoint: .bottomTrailing))
+                                        Gradient (colors:[.orange, .green]),startPoint: .center, endPoint: .bottomTrailing))
     }
 }
 
