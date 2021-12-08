@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-
-
 struct contentView:View {
     var body: some View{
         NavigationView{
@@ -36,12 +34,8 @@ struct contentView:View {
                 .padding()
                 Spacer()
                 
-            
+            }
         }
-       
-        
-    }
-       
     }
     struct SettingsView_Previews: PreviewProvider {
         static var previews: some View {
