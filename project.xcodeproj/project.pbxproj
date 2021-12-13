@@ -19,6 +19,7 @@
 		59EF13C3275FEEFB00353852 /* RedactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13C2275FEEFB00353852 /* RedactorView.swift */; };
 		59EF13C7276092D000353852 /* NastroykiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13C6276092D000353852 /* NastroykiView.swift */; };
 		59EF13C9276095BA00353852 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13C8276095BA00353852 /* ImportView.swift */; };
+		59EF13CB2767728C00353852 /* EfirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13CA2767728C00353852 /* EfirView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		59EF13C2275FEEFB00353852 /* RedactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactorView.swift; sourceTree = "<group>"; };
 		59EF13C6276092D000353852 /* NastroykiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NastroykiView.swift; sourceTree = "<group>"; };
 		59EF13C8276095BA00353852 /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		59EF13CA2767728C00353852 /* EfirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfirView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				59EF13C2275FEEFB00353852 /* RedactorView.swift */,
 				59EF13C6276092D000353852 /* NastroykiView.swift */,
 				59EF13C8276095BA00353852 /* ImportView.swift */,
+				59EF13CA2767728C00353852 /* EfirView.swift */,
 				59EF13C0275FE03400353852 /* SettingsView.swift */,
 				59EF13BE275FBC9A00353852 /* TabBarView.swift */,
 				59210FC8274E332E002D2B58 /* Assets.xcassets */,
@@ -169,6 +172,7 @@
 				59210FC5274E332D002D2B58 /* SceneDelegate.swift in Sources */,
 				59EF13BF275FBC9A00353852 /* TabBarView.swift in Sources */,
 				59EF13C3275FEEFB00353852 /* RedactorView.swift in Sources */,
+				59EF13CB2767728C00353852 /* EfirView.swift in Sources */,
 				59EF13C7276092D000353852 /* NastroykiView.swift in Sources */,
 				5980C621275BDF7B00956DEE /* StereoBarView.swift in Sources */,
 				59210FC7274E332D002D2B58 /* ContentView.swift in Sources */,
