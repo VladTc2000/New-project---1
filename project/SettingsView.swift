@@ -47,6 +47,7 @@ struct contentView:View {
                     HStack{
                         //кнопка Эфиры
                         Button(action:{self.showTop1.toggle()
+                            self.showTop1=true
                             self.showTop2=false
                             self.showTop3=false
                         }){
@@ -63,6 +64,7 @@ struct contentView:View {
                         //кнопка Подписки
                         Button(action:{self.showTop2.toggle()
                             self.showTop1=false
+                            self.showTop2=true
                             self.showTop3=false
                         }){
                             VStack{
@@ -79,6 +81,7 @@ struct contentView:View {
                         Button(action:{self.showTop3.toggle()
                             self.showTop1=false
                             self.showTop2=false
+                            self.showTop3=true
                         }){
                             VStack{
                                 Text("Подписчики")
@@ -115,9 +118,11 @@ struct contentView:View {
                                     
                                     .font(.callout)
                                     .foregroundColor(.gray)
+                                    .padding(.trailing)
                                 
                                 
                             }
+                       
                             Spacer()
                             
                             Button(action:{self.tapped.toggle()
@@ -130,8 +135,6 @@ struct contentView:View {
                                     .foregroundColor(tapped ? Color(#colorLiteral(red: 1, green: 0.6674310593, blue: 0, alpha: 1)):Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
                             }
                             .font(.callout)
-                            
-                            
                             .frame(width: 150, height: 20)
                             .background(tapped ? Color(#colorLiteral(red: 0.9764705896, green: 0.8959002, blue: 0.6567065144, alpha: 1)):Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
                             
@@ -145,13 +148,16 @@ struct contentView:View {
                                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                             VStack{
                                 Text("Вика")
+                                    
                                 Text("@Vika")
+                                    
                                     
                                     .font(.callout)
                                     .foregroundColor(.gray)
-                                
+                                    .padding(.trailing)
                                 
                             }
+                           
                             Spacer()
                             
                             Button(action:{self.tapped1.toggle()
