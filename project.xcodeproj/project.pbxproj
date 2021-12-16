@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		59210FC3274E332D002D2B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59210FC2274E332D002D2B58 /* AppDelegate.swift */; };
 		59210FC5274E332D002D2B58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59210FC4274E332D002D2B58 /* SceneDelegate.swift */; };
-		59210FC7274E332D002D2B58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59210FC6274E332D002D2B58 /* ContentView.swift */; };
 		59210FC9274E332E002D2B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59210FC8274E332E002D2B58 /* Assets.xcassets */; };
 		59210FCC274E332E002D2B58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59210FCB274E332E002D2B58 /* Preview Assets.xcassets */; };
 		59210FCF274E332E002D2B58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59210FCD274E332E002D2B58 /* LaunchScreen.storyboard */; };
-		5980C621275BDF7B00956DEE /* StereoBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980C620275BDF7B00956DEE /* StereoBarView.swift */; };
+		598B43E0276B808E0078A372 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598B43DF276B808E0078A372 /* SwiftUIView.swift */; };
 		59EF13BF275FBC9A00353852 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13BE275FBC9A00353852 /* TabBarView.swift */; };
 		59EF13C1275FE03400353852 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13C0275FE03400353852 /* SettingsView.swift */; };
 		59EF13C3275FEEFB00353852 /* RedactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EF13C2275FEEFB00353852 /* RedactorView.swift */; };
@@ -26,12 +25,11 @@
 		59210FBF274E332D002D2B58 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59210FC2274E332D002D2B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59210FC4274E332D002D2B58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59210FC6274E332D002D2B58 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 5; wrapsLines = 1; };
 		59210FC8274E332E002D2B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59210FCB274E332E002D2B58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		59210FCE274E332E002D2B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59210FD0274E332E002D2B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5980C620275BDF7B00956DEE /* StereoBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StereoBarView.swift; sourceTree = "<group>"; };
+		598B43DF276B808E0078A372 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		59EF13BE275FBC9A00353852 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		59EF13C0275FE03400353852 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		59EF13C2275FEEFB00353852 /* RedactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedactorView.swift; sourceTree = "<group>"; };
@@ -72,14 +70,13 @@
 			children = (
 				59210FC2274E332D002D2B58 /* AppDelegate.swift */,
 				59210FC4274E332D002D2B58 /* SceneDelegate.swift */,
-				59210FC6274E332D002D2B58 /* ContentView.swift */,
-				5980C620275BDF7B00956DEE /* StereoBarView.swift */,
-				59EF13C2275FEEFB00353852 /* RedactorView.swift */,
 				59EF13C6276092D000353852 /* NastroykiView.swift */,
 				59EF13C8276095BA00353852 /* ImportView.swift */,
 				59EF13CA2767728C00353852 /* EfirView.swift */,
+				59EF13C2275FEEFB00353852 /* RedactorView.swift */,
 				59EF13C0275FE03400353852 /* SettingsView.swift */,
 				59EF13BE275FBC9A00353852 /* TabBarView.swift */,
+				598B43DF276B808E0078A372 /* SwiftUIView.swift */,
 				59210FC8274E332E002D2B58 /* Assets.xcassets */,
 				59210FCD274E332E002D2B58 /* LaunchScreen.storyboard */,
 				59210FD0274E332E002D2B58 /* Info.plist */,
@@ -168,14 +165,13 @@
 			files = (
 				59210FC3274E332D002D2B58 /* AppDelegate.swift in Sources */,
 				59EF13C9276095BA00353852 /* ImportView.swift in Sources */,
+				598B43E0276B808E0078A372 /* SwiftUIView.swift in Sources */,
 				59EF13C1275FE03400353852 /* SettingsView.swift in Sources */,
 				59210FC5274E332D002D2B58 /* SceneDelegate.swift in Sources */,
 				59EF13BF275FBC9A00353852 /* TabBarView.swift in Sources */,
 				59EF13C3275FEEFB00353852 /* RedactorView.swift in Sources */,
 				59EF13CB2767728C00353852 /* EfirView.swift in Sources */,
 				59EF13C7276092D000353852 /* NastroykiView.swift in Sources */,
-				5980C621275BDF7B00956DEE /* StereoBarView.swift in Sources */,
-				59210FC7274E332D002D2B58 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

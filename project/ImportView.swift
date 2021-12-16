@@ -16,8 +16,14 @@ struct DetailView: View {
             HStack{
                 Spacer()
                     .padding(30)
-                Button("❎"){
-                    self.presentationMode.wrappedValue.dismiss()
+                Button(action:{
+                        self.presentationMode.wrappedValue.dismiss()}){
+                    Image(systemName: "multiply.circle.fill")
+                        .resizable()
+                        .foregroundColor(Color.init(#colorLiteral(red: 0.9131801128, green: 0.907751739, blue: 0.9173528552, alpha: 1)))
+                        .background(Color.init(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)))
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .frame(width:30, height:30 )
                 }
                 .padding(30)
             }
@@ -42,11 +48,6 @@ struct ContentView:View{
         }
     }
 }
-
-
-    
-
-
 struct ImportView_Previews: PreviewProvider {
     static var previews: some View {
         DetailView()
